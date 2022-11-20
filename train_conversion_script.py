@@ -4,8 +4,8 @@ import os
 from PIL import Image
 import tqdm
 
-input_dir = r'D:\Downloads\VinBig Chest Dataset\train'
-output_dir = r'D:\Downloads\VinBig Chest Dataset\train2'
+input_dir = r'E:\Datasets\VinBig Chest Dataset\VinBig Chest Dataset\train'
+output_dir = r'E:\Datasets\VinBig Chest Dataset\VinBig Chest Dataset\train2'
 
 for file in tqdm.tqdm(os.listdir(input_dir)):
     filename = file[:file.find('.')]
